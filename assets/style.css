@@ -1,0 +1,23 @@
+:root {
+    --pink: #e6c3d4;
+    --rose: #CC8270;
+    --plum: #753554;
+    --gray: #8CA79A;
+    --army: #b8c696;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    background-color: var(--pink);
+    color: var(--plum);
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.custom-jumbotron {
+    background-color: var(--army);
+    color: var(--plum);
+}
