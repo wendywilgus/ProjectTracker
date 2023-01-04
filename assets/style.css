@@ -1,5 +1,5 @@
 :root {
-    --pink: #e6c3d4;
+    --pink: #f7deea;
     --rose: #CC8270;
     --plum: #753554;
     --gray: #8CA79A;
@@ -13,11 +13,43 @@ body {
     color: var(--plum);
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-weight: 700;
 }
 
 .custom-jumbotron {
     background-color: var(--army);
     color: var(--plum);
+}
+
+.custom-card {
+    background-color: var(--rose);
+    border-color: var(--rose);
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+.custom-card .card-header {
+    background-color: var(--rose);
+}
+
+.custom-card .card-body,
+.custom-modal .modal-body {
+    background-color: var(--pink);
+    color: var(--plum);
+    border-radius: 10px;
+}
+
+.custom-btn {
+    background-color: var(--rose);
+    color: var(--plum);
+    border-color: var(--plum);
+    margin-top: 30px;
+}
+
+.custom-btn:hover {
+    background-color: var(--plum);
+    color: var(--pink);
 }
