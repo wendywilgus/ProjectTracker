@@ -1,4 +1,7 @@
 let timeDisplay = $('#time-display');
+let projectModal = $('#project-modal');
+let projectForm = $('#project-form');
+
 
 //display date and time using Moment.js
 function displayTime() {

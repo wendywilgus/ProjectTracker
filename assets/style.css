@@ -15,16 +15,21 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
     font-weight: 700;
 }
 
-.custom-jumbotron {
+.custom-jumbotron,
+.custom-modal .modal-header,
+.custom-modal .modal-footer {
     background-color: var(--army);
     color: var(--plum);
 }
 
-.custom-card {
+.custom-card    {
     background-color: var(--rose);
     border-color: var(--rose);
     border-width: 3px;
@@ -49,7 +54,20 @@ h3 {
     margin-top: 30px;
 }
 
-.custom-btn:hover {
+.btn-secondary {
+    background-color: var(--rose);
+    color: var(--plum);
+    border-color: var(--plum);
+}
+
+.custom-btn:hover,
+.btn-secondary {
     background-color: var(--plum);
     color: var(--pink);
 }
+
+#project-form {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
