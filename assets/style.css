@@ -71,3 +71,15 @@ h6 {
     margin-right: 10px;
 }
 
+.custom-table {
+    border: solid;
+    border-radius: 10px;
+    border-color: var(--pink);
+    border-width: 2px;
+}
+
+thead   {
+    background-color: var(--plum);
+    color: var(--army);
+    font-weight: 700;
+}
